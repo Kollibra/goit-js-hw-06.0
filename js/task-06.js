@@ -25,6 +25,3 @@ textInput.addEventListener('blur', event => {
 
 
 
-
-
-
