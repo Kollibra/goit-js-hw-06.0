@@ -3,8 +3,6 @@ function getRandomHexColor() {
 }
 
 
-
-
 const button = document.querySelector('.change-color');
 const color = document.querySelector('.color');
 
