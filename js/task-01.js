@@ -1,15 +1,15 @@
+
+
 const categoriesEl = document.querySelectorAll('.item')
 
 console.log(`Number of categories: ${categoriesEl.length}`);
 
-const itemEl = document.querySelectorAll('.item h2').forEach(number =>
-  console.log(`Category: ${number.textContent} 
-   Elements: ${number.nextElementSibling.children.length}`));
-    
+categoriesEl.forEach(item => {
+    console.log(`Category: ${item.firstElementChild.textContent}`);
+    console.log(`Elements: ${item.lastElementChild.children.length}`)
+});
 
 
-
-
-
+ 
 
 
