@@ -11,7 +11,8 @@ function onFormSubmit(event) {
 
 
  if (email.value === "" || password.value === "") {
-    alert('Please fill in all the fields!') 
+   return alert('Please fill in all the fields!') 
+   
 }
 
  const userForm = { email: email.value, Password: password.value }
